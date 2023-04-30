@@ -9,6 +9,7 @@ vaza_bikeshare
 ### Description
 In this project, we use Python to explore data related to bike share systems for three major cities in the United States — Chicago, New York City, and Washington.
 The code imports the data and answers questions about it by computing descriptive statistics. It takes in raw input to create an interactive experience in the terminal to present these statistics.
+The project uses Python libraries for data analysis.
 
 ### Files used
 * bikeshare_submitted.py
