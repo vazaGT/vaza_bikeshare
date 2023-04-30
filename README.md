@@ -18,4 +18,5 @@ The project uses Python libraries for data analysis.
 * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/mihail95/GameDevCourse/blob/main/Week1/IntroNotes.md
+Looked up markdown features in Mihail's project.
