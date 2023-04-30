@@ -13,9 +13,9 @@ The project uses Python libraries for data analysis.
 
 ### Files used
 * bikeshare_submitted.py
-chicago.csv
-new_york_city.csv
-washington.csv
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
