@@ -189,19 +189,19 @@ def print_data_frame(df):
     """
 
     i = df.shape[0]  # holds the number of the rows of the dataframe
-    counter = 0
+    lines_counter = 0
     choice = ['yes', 'no']  # holds the valid options for the user's input
     show_table = input('Would you like to see the dataframe? Type "yes" or "no": ')  # takes the user's input
     while show_table.lower() not in choice:
         show_table = input('Would you like to see the dataframe? Type "yes" or "no": ')
     if show_table.lower() == 'yes':
-        print(df[counter:counter + 5])
+        print(df[lines_counter:lines_counter + 5])
         while counter < i:
             # prints out next 5 lines from the dataframe or quits printing as per the user's preference
             meer = input('Do you want 5 more?')  # user's continuation input
             if meer == 'yes':
-                counter += 5
-                print(df[counter:counter + 5])
+                lines_counter += 5
+                print(df[lines_counter:lines_counter + 5])
             elif meer == "no":
                 break
             else:
