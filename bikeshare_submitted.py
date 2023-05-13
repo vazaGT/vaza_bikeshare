@@ -198,11 +198,11 @@ def print_data_frame(df):
         print(df[counter:counter + 5])
         while counter < i:
             # prints out next 5 lines from the dataframe or quits printing as per the user's preference
-            mor = input('Do you want 5 more?')  # user's continuation input
-            if mor == 'yes':
+            meer = input('Do you want 5 more?')  # user's continuation input
+            if meer == 'yes':
                 counter += 5
                 print(df[counter:counter + 5])
-            elif mor == "no":
+            elif meer == "no":
                 break
             else:
                 print('Invalid entry: Type "yes" or "no"')
